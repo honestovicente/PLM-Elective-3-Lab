@@ -25,3 +25,10 @@ imshow(img_blue);
 g = rgb2gray(img_color);
 figure(4);
 imshow(g);
+
+% Save files
+imwrite(img_red, 'C:\Users\user\Downloads\img_red.jpg')
+imwrite(img_green, 'C:\Users\user\Downloads\img_green.jpg')
+imwrite(img_blue, 'C:\Users\user\Downloads\img_blue.jpg')
+imwrite(g, 'C:\Users\user\Downloads\g.jpg')
+
